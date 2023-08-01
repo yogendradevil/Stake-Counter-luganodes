@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --light: #e1f3ed;
+    --lightgreen: #D4E2D4;
+    --pink: #FFCACC;
+    --purpel: #DBC4F0;
+    --volite: #9681EB; 
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--light);
+    font-family: 'Quantico', sans-serif;
+}
+
+/* Navbar css */
+nav{
+    background-color: #fad0c4;
+    background-image: linear-gradient(315deg,#3fba93 0%, #f8d6cd 74%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem 2rem;
+}
+
+.navName {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav .navOptions{
+    display: flex;
+    gap: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
