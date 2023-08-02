@@ -46,3 +46,44 @@ nav a{
     font-weight: 600;
 }
 
+/* table */
+
+.handleBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

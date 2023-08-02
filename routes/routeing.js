@@ -11,10 +11,4 @@ router.route("/").get(
     }
 );
 
-router.route("/test").get(
-    (req, res) => {
-        res.sendFile(path.join(__dirname, "../public", "test.html"));
-    }
-);
-
 module.exports = router;
